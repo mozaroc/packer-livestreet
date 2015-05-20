@@ -40,8 +40,6 @@ unset HISTFILE
 rm -f /root/.bash_history
 rm -f /home/vagrant/.bash_history
 
-# Clean up log files
-find /var/log -type f | while read f; do echo -ne '' > $f; done;
 
 apt-get -y autoremove --purge
 apt-get -y autoclean

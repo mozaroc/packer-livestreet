@@ -96,6 +96,7 @@ while true; do
     sleep 5s
 done
 
+sleep 60s
 
 date "+%Y-%m-%d %H:%M:%S"
 
