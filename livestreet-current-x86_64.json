@@ -63,8 +63,7 @@
       "scripts": [
         "scripts/livestreet.sh",
         "scripts/charmclean.sh",
-        "scripts/cloudinit.sh",
-        "scripts/cleanup.sh"
+        "scripts/cloudinit.sh"
       ],
       "pause_before": "30s",
       "type": "shell"
