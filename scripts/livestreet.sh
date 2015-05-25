@@ -98,6 +98,8 @@ done
 
 sleep 60s
 
+sed -i 's|10.0.2.15|127.0.0.1|g' /var/lib/juju/agents/unit-*/agent.conf
+
 date "+%Y-%m-%d %H:%M:%S"
 
 
